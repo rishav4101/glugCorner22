@@ -86,7 +86,7 @@
     const cursor = new CursorFx(document.querySelector('.cursor'));
     
     // Custom cursor chnages state when hovering on elements with 'data-hover'.
-    [...document.querySelectorAll('[cursor-hover], .nl-field-toggle, #ftitle, #close_form, #privacy-policy')].forEach((link) => {
+    [...document.querySelectorAll('[cursor-hover], .nl-field-toggle, #close_form, #privacy-policy')].forEach((link) => {
         link.addEventListener('mouseenter', () => cursor.enter() );
         link.addEventListener('mouseleave', () => cursor.leave() );
         link.addEventListener('click', () => cursor.click() );
