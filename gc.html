@@ -16,97 +16,14 @@
     <script src="js/blob-min.js"></script>
     <script src="js/main.js"></script>
     <script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
-
-    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
-    <link rel="manifest" href="img/site.webmanifest">
-    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <meta property="og:type" content="website" />
-
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-5JM6J68');</script>
-    <!-- End Google Tag Manager -->
-
-
-    <!-- Global site tag (gtag.js) - Google ADS -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-992287081"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-38767265-1');//Analytics
-
-        gtag('config', 'AW-992287081');
-        function gtag_report_conversion_sap(url) {
-            var callback = function () {
-                if (typeof (url) != 'undefined') {
-                    window.location = url;
-                }
-            };
-            gtag('event', 'Click', {
-                'event_category': 'Click su testo',
-                'event_label': 'testo'
-            });
-            gtag('event', 'conversion', { 'send_to': 'AW-992287081/-gZCCN_D76QBEOmylNkD', 'event_callback': callback });
-            return false;
-        }
-        function gtag_report_conversion_eb(url) {
-            var callback = function () {
-                if (typeof (url) != 'undefined') {
-                    window.location = url;
-                }
-            };
-            gtag('event', 'Click', {
-                'event_category': 'Click su pulsante',
-                'event_label': 'pulsante'
-            });
-            gtag('event', 'conversion', { 'send_to': 'AW-992287081/N5qyCK3G6qQBEOmylNkD', 'event_callback': callback });
-            return false;
-        }
-    </script>
 
 </head>
 
 <body class="mainBody" id="start">
     <div class="button-navigator">
-
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5JM6J68" height="0" width="0"
-                style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
-        <!-- Facebook Pixel Code -->
-        <script>
-            !function (f, b, e, v, n, t, s) {
-                if (f.fbq) return; n = f.fbq = function () {
-                    n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-                };
-                if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-                n.queue = []; t = b.createElement(e); t.async = !0;
-                t.src = v; s = b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t, s)
-            }(window, document, 'script',
-                'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '378866519373662');
-            fbq('track', 'PageView');
-        </script>
-        <noscript>
-            <img height="1" width="1" alt="Facebook Pixel"
-                src="https://www.facebook.com/tr?id=378866519373662&ev=PageView&noscript=1" />
-        </noscript>
-        <!-- End Facebook Pixel Code -->
-
 
         <div id="blob_container"
             style="position:fixed; width: 100vw; height: 100vh;top:0;left:0; background: white; z-index:-1;"></div>
